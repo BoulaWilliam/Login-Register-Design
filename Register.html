@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container my-5  bg text-whit">
+            <div class="group my-5 w-75 m-auto text-center p-4">
+                <h1>Register Page</h1>
+                <div class="form-floating my-3">
+                    <input id="registerName" type="text" class="form-control my-4" placeholder="Enter your name">
+                    <label for="registerName">Your Name </label>
+                </div>
+                <div class="form-floating my-3">
+                    <input id="registerEmail" type="email" class="form-control my-4" placeholder="Enter your email">
+                    <label for="registerEmail">Your Email </label>
+                </div>
+                <div class="form-floating my-3">
+                    <input id="registerPassword" type="password" class="form-control mb-3"
+                        placeholder="Enter your password">
+
+                    <label for="registerPassword">Your Password </label>
+                </div>
+                <span class="errorInput text-danger"></span>
+                <button onclick="Register()" class="btn btn-outline-info my-4 w-100">Register</button>
+                <p>You have an account? <a id="signInLink" href="index.html">Login</a></p>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
